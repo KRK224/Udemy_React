@@ -1,6 +1,6 @@
-import { useState } from "react";
-import BackDrop from "./BackDrop";
-import Modal from "./Modal";
+import { useState } from 'react';
+import BackDrop from './BackDrop';
+import Modal from './Modal';
 
 function Todo(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -13,7 +13,7 @@ function Todo(props) {
   // };
 
   const deleteHandler = () => {
-    console.log("Clicked!!");
+    console.log('Clicked!!');
     setModalIsOpen(true);
   };
 
